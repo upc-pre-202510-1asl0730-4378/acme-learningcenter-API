@@ -34,7 +34,7 @@ public partial class Tutorial: IPublishable
       }
    }
 
-   public void Handle(AddReadableContentToTutorialCommand command)
+   public void Handle(AddReadableContentAssetToTutorialCommand command)
    {
       if (command.TutorialId == Id)
       {

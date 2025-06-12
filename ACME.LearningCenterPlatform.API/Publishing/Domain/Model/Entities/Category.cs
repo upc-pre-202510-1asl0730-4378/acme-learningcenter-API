@@ -20,6 +20,5 @@ public class Category
    /// This is another way to define a constructor since the command needs the same parameters as the constructor above.
    /// </summary>
    /// <param name="command"></param>
-   public Category(CreateCategoryCommand command) : 
-      this(command.Name) { }
+   public Category(CreateCategoryCommand command) : this(command.Name) { }
 }
